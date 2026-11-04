@@ -1,8 +1,8 @@
 class Sqln < Formula
   desc "Terminal database client with SQL consoles and a results grid"
   homepage "https://github.com/toninho09/sqln"
-  url "https://github.com/toninho09/sqln/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "21b866897fc96658a1612e3d564d9a41795a99e056da5a06e032dd43513c59f0"
+  url "https://github.com/toninho09/sqln/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "e276145abffdba5f8f734d6f6cc94f96570b09328f49ab909d6aff51d99102a1"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/toninho09/sqln.git", branch: "main"
 
