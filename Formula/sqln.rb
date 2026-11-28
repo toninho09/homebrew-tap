@@ -35,6 +35,8 @@ class Sqln < Formula
 
   def install
     if File.exist?("Cargo.toml")
+      # rdkafka builds its own OpenSSL (ssl-vendored), as the release binaries do.
+      ENV.delete "OPENSSL_NO_VENDOR"
       system "cargo", "install", *std_cargo_args
     else
       bin.install "sqln"
